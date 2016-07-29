@@ -1,3 +1,8 @@
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
 # Codebook
 
 ## Description of the raw data
