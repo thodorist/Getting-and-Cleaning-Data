@@ -76,7 +76,7 @@ mergedDATA<-rbind(trainDATA, testDATA)
 ###########################################################
 
 features<-read.table(paste0(path, "/features.txt"))
-Index<-grep("mean|std.", features[,2])
+Index<-grep("[Mm]ean|[Ss]td.", features[,2])
 SubsetData<-mergedDATA[, c(1,2, Index + 2)]
 
 ################################################
