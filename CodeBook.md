@@ -14,6 +14,18 @@ For each record it is provided:
 - Its activity label. 
 - An identifier of the subject who carried out the experiment.
 
+## Files from the raw data
+The following files from the folder `UCI HAR Dataset` were used in order to create the final `TidyDataSet.txt` file.
+
+* `activity_labels.txt`
+* `features.txt`
+* `subject_train.txt`
+* `X_train.txt`
+* `y_train.txt`
+* `subject_test.txt`
+* `X_test.txt`
+* `y_test.txt`
+
 ## Description of the variables in the tidy data set
 The `TidyDataSet.txt` file contains:
 
