@@ -166,6 +166,8 @@ head(mergedData%>%
     ## 12 GRD 178                        Grenada  767 
     ## 13 KNA 178            St. Kitts and Nevis  767
 
+Hence, the 13-nth country is St. Kitts and Nevis.
+
 Question 4
 ==========
 
@@ -230,3 +232,5 @@ table(mergedData$rankinGroups, mergedData$Income.Group, useNA = "ifany")
     ##   (114,152]                     9                   8
     ##   (152,190]                    16                   9
     ##   <NA>                          0                   0
+
+Thus, 5 countries were among the 38 nations with highest GDP.
